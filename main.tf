@@ -8,10 +8,7 @@ terraform {
 }
 
 
-provider "aws" {
-  profile = "defaut"
-  region  = "us-east-1"
-}
+
 
 
 resource "aws_vpc" "dev_vpc" {
